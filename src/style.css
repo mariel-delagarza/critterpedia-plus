@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  box-sizing: border-box;
+  color: #333;
+}
+
+body {
+  background-color: #81a69b;
+  background-image: url(./assets/background-images/newhorizons_wallpaper_Other.png);
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+header > a,
+#root > div > h1 {
+  display: inline-block;
+  background-image: url(./assets/background-images/acnh-logo.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  text-indent: -5000px;
+  margin: 20px 0;
+  border: 1px solid red;
+}
