@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div>
       <h1>Critterpedia+</h1>
+      <p>Testing</p>
       <Button>Normal Button</Button>
     </div>
   );

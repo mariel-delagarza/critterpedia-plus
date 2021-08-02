@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap");
+
+@font-face {
+  font-family: "finkHeavy";
+  src: url(./assets/FinkHeavy.ttf);
+}
 
 * {
   box-sizing: border-box;
@@ -9,7 +15,7 @@ body {
   background-color: #81a69b;
   background-image: url(./assets/background-images/newhorizons_wallpaper_Other.png);
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "finkHeavy", sans-serif;
 }
 
 header > a,
